@@ -17,6 +17,9 @@ git add .
 git commit -m "Добавил новые файлы и обновил структуру проекта"
 
 
+git push --set-upstream origin master
+# После этого Git запомнит, что ветка master пушится в origin/master.
+
 # Отправить изменения на GitHub
 git push -u origin main
 # Если впервые делаем push после клонирования, ветка уже настроена на main, поэтому команда git push работает сразу.
